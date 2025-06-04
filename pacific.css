@@ -1,3 +1,10 @@
+/* 
+File: pacific.css 
+GUI Assignment: HW2
+David Boulos, UML C.S., David_Boulos@student.uml.edu
+Updated by DB on June 4, 2025 at 1:15 PM
+*/
+
 header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 	display: block;
 }
