@@ -1,0 +1,125 @@
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+
+.resort{
+	font-weight: bold;
+	color: #00569f;
+}
+
+header {
+	background-image: url("sunset.jpg");
+    background-size: 100% 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	color: white;
+}
+
+body {
+	background: #00569f;
+    background-image: url("ptrbackground.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center top; 
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+	list-style-image: url('marker.gif');
+}
+
+
+#wrapper {
+	background-color: lightblue;
+	width: 80%;
+    min-width: 600px;
+    max-width: 900px;
+    margin: 0px auto 0px auto;
+	overflow: hidden;
+	position: relative;
+}
+
+nav {
+    height: 100%;
+    min-height: 100%;
+    background-color: lightblue; 
+    padding: 0px;
+	margin: 0px;
+	width: 180px;
+	min-width: 180px;
+    float: left;
+	position: absolute;
+}
+
+nav ul {
+	font-size: 1.2em;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+	font-weight: bold;
+    color: black;
+    display: block;
+    padding: 0px;
+}
+
+#content {
+    width: auto;
+	margin: 0px 0px 0px 180px;
+	padding: 0 30px;
+    background-color: white;
+    float: left;
+	font-size: 0.9em;
+}
+
+img {
+    float: left;
+    margin-right: 15px;
+	margin: 0px 30px 30px 0px
+}
+
+nav a:visited {
+	color: #344873;
+}
+
+nav a:hover {
+	color: #FFFFFF;
+}
+
+h1 {
+	margin-bottom: 0;
+	padding: 10px;
+}
+
+h2 {
+	color: #3399CC;
+}
+
+h1,
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+#contact {
+	font-size: 90%;
+}
+
+dt {
+	color: #000033;
+}
+
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+	margin: 0px 0px 0px 180px;
+    padding: 20px;
+    width: 100%;
+    float: left;
+	background-color: white;
+	font-style: italic;
+}
+
